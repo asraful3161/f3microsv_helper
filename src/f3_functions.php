@@ -5,7 +5,7 @@ function f3(){
 }
 
 function db(){
-	return \F3_helper\DB::instance()->get();
+	return \F3\DB::instance()->get();
 }
 
 function mapper($table){
